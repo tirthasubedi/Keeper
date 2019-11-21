@@ -1,12 +1,11 @@
 var express = require('express'); 
 var path = require('path');
 var bodyParser = require('body-parser');
-var mongoose   = require('mongoose');
 
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
 
-var port = 8080;
+var port = 8888;
 var app = express();
 
 //setting view engine
