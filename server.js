@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
 
-var port = 8888;
+var port = 5000;
 var app = express();
 
 //setting view engine
