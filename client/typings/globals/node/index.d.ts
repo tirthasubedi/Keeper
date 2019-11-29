@@ -686,7 +686,7 @@ declare module "http" {
          */
         keepAlive?: boolean;
         /**
-         * When using HTTP KeepAlive, how often to send TCP KeepAlive packets over sockets being kept alive. Default = 1000.
+         * When using HTTP KeepAlive, how often to send TCP KeepAlive packets over sockets being kept alive. Default = 8080.
          * Only relevant if keepAlive is set to true.
          */
         keepAliveMsecs?: number;

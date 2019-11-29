@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
 
-var port = 5000;
+var port = 8080;
 var app = express();
 
 //setting view engine
@@ -24,6 +24,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use('/', index);
 app.use('/api', tasks);
 
+
 app.listen(port, function(){
-    console.log('Success! Server started on port: ' + port);
+    console.log('Sohan Success! Server started on port: ' + port);
 });
